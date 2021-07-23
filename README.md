@@ -14,7 +14,7 @@ I started building Make Change with the initial prompts to the customer and the 
 
 Secondly, I built the 'while loops' to determine if change was needed for each specific denomination ($20, $10, $5, %1, $.25, $.10, $.05, $.01).
 
-Problem: At first I wasn't sure how to clean up the grammar between single and plural instances when saying "One Dollar Bill" - "Two Dollar Bill" or "One Dollar Bills" = "Two Dollar Bills".
+Problem: At first I wasn't sure how to clean up the grammar between single and plural instances when saying "One Dollar Bill" - "Two Dollar Bill" or "One Dollar Bills" - "Two Dollar Bills".
 
 Solution: I changed the output to reflect x $20, or x $10, etc.
 

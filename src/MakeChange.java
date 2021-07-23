@@ -7,20 +7,19 @@ public class MakeChange {
 		double price = 0.00;
 		double pay = 0.00;
 		
-		
 		System.out.println("What is the price of the item?: ");
 		price = kb.nextDouble();
 		
-		System.out.println("How much money did the customer pay?: ");
+		System.out.println("\nHow much money did the customer pay?: ");
 		pay = kb.nextDouble();
 	
 		if (pay < price) {
-			System.err.println("Insufficient Funds.");
-		}
+			System.err.println("Insufficient Funds."); }
+		
 		
 		if  (pay == price) {
-			System.out.println("Exact Amount. Thank you for shopping!");
-		}
+			System.out.println("Exact Amount. Thank you for shopping!"); }
+		
 		
 		if  (pay > price) {
 
@@ -31,6 +30,7 @@ public class MakeChange {
 					change -= 20;
 					counter++;
 		}
+			System.out.println("");
 			System.out.println(counter + " x $20");
 			counter = 0;
 				
@@ -81,14 +81,11 @@ public class MakeChange {
 				counter ++;
 		}
 			System.out.println(counter + " x $.01");
-			counter = 0;
-			
-			
-		
-		}
+			counter = 0;	}
 
+		
 			kb.close();
 	
-		}
-
+			
+}
 }

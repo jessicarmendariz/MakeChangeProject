@@ -15,7 +15,9 @@ I started building Make Change with the initial prompts to the customer and the 
 Secondly, I built the 'while loops' to determine if change was needed for each specific denomination ($20, $10, $5, %1, $.25, $.10, $.05, $.01).
 
 Problem: At first I wasn't sure how to clean up the grammar between single and plural instances when saying "One Dollar Bill" - "Two Dollar Bill" or "One Dollar Bills" = "Two Dollar Bills".
+
 Solution: I changed the output to reflect x $20, or x $10, etc.
 
 Problem: I did not like how it showed zeroes for the denominations that weren't used. I wanted to only display the denominations that would be dispensed to the Customer.
-Solution: -- 
+
+Solution: I attempted to use a Boolean and Switch/Case to only print lines that had data to output. At this time I was unable to make it work and will hopefully learn eventually how to complete that.

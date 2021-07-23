@@ -6,7 +6,7 @@ Have you ever worked in retail or the service industry? Have you ever been a Cas
 
 ### How To Use
 
-When a Customer purchases an item, the Cashier will be prompted to enter the price of the item. The Cashier will then enter the amount of money the Customer uses to purchase the item. Make Change does all the math for the Cashier and explains which USD bills and coins need to be dispensed back to the Customer in order to - Make Change.
+When a Customer purchases an item, the Cashier will be prompted to enter the price of the item. The Cashier will then also enter the amount of money the Customer uses to purchase the item. Make Change does all the math for the Cashier and explains which USD bills and coins need to be dispensed back to the Customer in order to - Make Change.
 
 ### Building Make Change
 
@@ -18,6 +18,6 @@ Problem: At first I wasn't sure how to clean up the grammar between single and p
 
 Solution: I changed the output to reflect x $20, or x $10, etc.
 
-Problem: I did not like how it showed zeroes for the denominations that weren't used. I wanted to only display the denominations that would be dispensed to the Customer.
+Problem: I did not like how it showed zeroes for the denominations that weren't used. I wanted to only display the denominations that would be dispensed to the Customer. I attempted to use a Boolean and Switch/Case to only print lines that had data to output. I attempted to create a second Method and move everything in my third 'If Statement' - all the While Loops - into their own method and use a Boolean to only print when values appeared in each loop. I was unsuccessful.
 
-Solution: I attempted to use a Boolean and Switch/Case to only print lines that had data to output. At this time I was unable to make it work and will hopefully learn eventually how to complete that.
+Solution: At this time I was unable to make it work and will hopefully learn eventually how to complete that.

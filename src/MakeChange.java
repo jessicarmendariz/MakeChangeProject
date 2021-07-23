@@ -31,56 +31,56 @@ public class MakeChange {
 					change -= 20;
 					counter++;
 		}
-			System.out.println(counter + " twenty dollar bill ");
+			System.out.println(counter + " x $20");
 			counter = 0;
 				
 			while (change >= 10) { 
 					change -= 10;
 					counter ++;
 		}
-			System.out.println(counter + " ten dollar bill");
+			System.out.println(counter + " x $10");
 			counter = 0;
 			
 			while (change >= 5) {
 					change -= 5;
 					counter ++;
 		}
-			System.out.println(counter + " five dollar bill ");
+			System.out.println(counter + " x $5");
 			counter = 0;
 			
 			while (change >= 1) {
 				change -= 1;
 				counter ++;
 		}
-			System.out.println(counter + " one dollar bill ");
+			System.out.println(counter + " x $1");
 			counter = 0;
 		
 			while (change >= .25) {
 				change -= .25;
 				counter ++;
 		}
-			System.out.println(counter + " quarters ");
+			System.out.println(counter + " x $.25");
 			counter = 0;
 			
 			while (change >= .10) {
 				change -= .10;
 				counter ++;
 		}
-			System.out.println(counter + " dimes ");
+			System.out.println(counter + " x $.10");
 			counter = 0;
 			
 			while (change >= .05) {
 				change -= .05;
 				counter ++;
 		}
-			System.out.println(counter + " nickels ");
+			System.out.println(counter + " x $.05");
 			counter = 0;
 			
 			while (change >= .01) {
 				change -= .01;
 				counter ++;
 		}
-			System.out.println(counter + " pennies ");
+			System.out.println(counter + " x $.01");
 			counter = 0;
 			
 			

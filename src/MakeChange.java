@@ -12,6 +12,7 @@ public class MakeChange {
 		
 		System.out.println("\nHow much money did the customer pay?: ");
 		pay = kb.nextDouble();
+		System.out.println(" ");
 	
 		if (pay < price) {
 			System.err.println("Insufficient Funds."); }
@@ -30,57 +31,64 @@ public class MakeChange {
 					change -= 20;
 					counter++;
 		}
-			System.out.println("");
-			System.out.println(counter + " x $20");
+			if (counter != 0) {
+			System.out.println(counter + " x $20");}
 			counter = 0;
 				
 			while (change >= 10) { 
 					change -= 10;
 					counter ++;
 		}
-			System.out.println(counter + " x $10");
+			if (counter != 0) {
+			System.out.println(counter + " x $10"); }
 			counter = 0;
 			
 			while (change >= 5) {
 					change -= 5;
 					counter ++;
 		}
-			System.out.println(counter + " x $5");
+			if (counter != 0) {
+			System.out.println(counter + " x $5"); }
 			counter = 0;
 			
 			while (change >= 1) {
 				change -= 1;
 				counter ++;
 		}
-			System.out.println(counter + " x $1");
+			if (counter != 0) {
+			System.out.println(counter + " x $1"); }
 			counter = 0;
 		
 			while (change >= .25) {
 				change -= .25;
 				counter ++;
 		}
-			System.out.println(counter + " x $.25");
+			if (counter != 0) {
+			System.out.println(counter + " x $.25"); }
 			counter = 0;
 			
 			while (change >= .10) {
 				change -= .10;
 				counter ++;
 		}
-			System.out.println(counter + " x $.10");
+			if (counter != 0) {
+			System.out.println(counter + " x $.10"); }
 			counter = 0;
 			
 			while (change >= .05) {
 				change -= .05;
 				counter ++;
 		}
-			System.out.println(counter + " x $.05");
-			counter = 0;
+			if (counter != 0) {
+			System.out.println(counter + " x $.05"); }
+			counter = 0; 
 			
 			while (change >= .01) {
 				change -= .01;
 				counter ++;
 		}
-			System.out.println(counter + " x $.01");
+			if (counter != 0) {
+			System.out.println(counter + " x $.01"); }
 			counter = 0;	}
 
 		
